@@ -22,7 +22,7 @@ A Tic-Tac-Toe game with an AI opponent that uses the minimax algorithm to play. 
 
 ### Testing
 
-A test script (`test_tictactoe.py`) is included to verify the functionality of the functions listed above.
+A test script (`test_tictactoe.py`) has been developed to verify the correct operation of all listed functions.
 
 ### Technologies Used
 
