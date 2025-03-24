@@ -26,6 +26,6 @@ A test script (`test_tictactoe.py`) has been developed to verify the correct ope
 
 ### Technologies Used
 
-- Unittest
-- PyGame
+- `Unittest`
+- `PyGame`
 
