@@ -9,16 +9,19 @@ from tictactoe import (
 
 
 class TestBoards:
+    @staticmethod
     def after_one_turn():
         return [[  X  , EMPTY, EMPTY],
                 [EMPTY, EMPTY, EMPTY],
                 [EMPTY, EMPTY, EMPTY]]
 
+    @staticmethod
     def X_win():
         return [[  X  ,   X  ,   X  ],
                 [EMPTY,   O  , EMPTY],
                 [EMPTY,   O  , EMPTY]]
 
+    @staticmethod
     def O_win():
         return [[  O  ,   X  ,   X  ],
                 [EMPTY,   O  , EMPTY],
