@@ -2,6 +2,7 @@
 
 A Tic-Tac-Toe game with an AI opponent that uses the minimax algorithm to play. The AI ensures that it either wins or results in a tie if both players play optimally.
 
+
 ## Contributions
 
 `tic-tac-toe.py`:
@@ -20,12 +21,19 @@ A Tic-Tac-Toe game with an AI opponent that uses the minimax algorithm to play. 
 
 - `minimax`: Implements the minimax algorithm to determine the optimal move for the current player. Returns None if the game is over.
 
+
 ### Testing
 
 A test script (`test_tictactoe.py`) has been developed to verify the correct operation of all listed functions.
+
 
 ### Technologies Used
 
 - `Unittest`
 - `PyGame`
 
+
+### Usage
+
+- main: `python3 runner.py`
+- test: `python3 test_tictactoe.py`
